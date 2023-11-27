@@ -14,6 +14,8 @@
 		EB4978A92AF1500400DD32BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4978A72AF1500400DD32BD /* LaunchScreen.storyboard */; };
 		EBF85AE22B1115F900C56AA6 /* HourlyForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF85AE12B1115F900C56AA6 /* HourlyForecastCollectionViewCell.swift */; };
 		EBF85AE42B11176900C56AA6 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF85AE32B11176900C56AA6 /* Color+Extensions.swift */; };
+		EBF85AE62B11266E00C56AA6 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF85AE52B11266E00C56AA6 /* DailyForecastTableViewCell.swift */; };
+		EBF85AE82B11286800C56AA6 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF85AE72B11286800C56AA6 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		EB4978AA2AF1500400DD32BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBF85AE12B1115F900C56AA6 /* HourlyForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastCollectionViewCell.swift; sourceTree = "<group>"; };
 		EBF85AE32B11176900C56AA6 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		EBF85AE52B11266E00C56AA6 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
+		EBF85AE72B11286800C56AA6 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				EB49789C2AF1500100DD32BD /* AppDelegate.swift */,
 				EB49789E2AF1500100DD32BD /* SceneDelegate.swift */,
 				EB4978A02AF1500100DD32BD /* ViewController.swift */,
+				EBF85AE72B11286800C56AA6 /* UIView+Extensions.swift */,
+				EBF85AE52B11266E00C56AA6 /* DailyForecastTableViewCell.swift */,
 				EBF85AE12B1115F900C56AA6 /* HourlyForecastCollectionViewCell.swift */,
 				EBF85AE32B11176900C56AA6 /* Color+Extensions.swift */,
 				EB4978A52AF1500400DD32BD /* Assets.xcassets */,
@@ -98,7 +104,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					EB4978982AF1500000DD32BD = {
 						CreatedOnToolsVersion = 14.2;
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF85AE82B11286800C56AA6 /* UIView+Extensions.swift in Sources */,
 				EBF85AE42B11176900C56AA6 /* Color+Extensions.swift in Sources */,
 				EB4978A12AF1500100DD32BD /* ViewController.swift in Sources */,
+				EBF85AE62B11266E00C56AA6 /* DailyForecastTableViewCell.swift in Sources */,
 				EB49789D2AF1500100DD32BD /* AppDelegate.swift in Sources */,
 				EBF85AE22B1115F900C56AA6 /* HourlyForecastCollectionViewCell.swift in Sources */,
 				EB49789F2AF1500100DD32BD /* SceneDelegate.swift in Sources */,
@@ -198,6 +206,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -258,6 +267,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
